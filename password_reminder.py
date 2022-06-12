@@ -12,8 +12,13 @@ def main():
             break
 
         elif attempts > 2:
-            print ("You Have Entered The Wrong Name, Try Again: ")
+            print ("You Have Entered the Maximum Amount of Tries! See You Later. ")
+            break
+        else:
+            UserName = input ("You Entered The Wrong Name, Try Again: ")
             attempts += 1
+
+
 
 def logged():                  
     time.sleep(1)
@@ -21,3 +26,4 @@ def logged():
 
 
 main()
+
