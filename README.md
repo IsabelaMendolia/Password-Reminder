@@ -1,4 +1,7 @@
 # Password-Reminder
+
+This program works for identifying conditional algorithm and string operations skills.
+
 Password Reminder
 This is a Program that reminds you of your password. Instance 1: You left a message in the past that prints a password you need. 
 To see the password you wrote, simply  enter your name and the program should recognize you.
